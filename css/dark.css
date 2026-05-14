@@ -1,0 +1,200 @@
+/*
+* 
+* ==========================================================
+* DARK.SCSS
+* ==========================================================
+*
+* Back-end dark mode CSS.
+*
+*/
+.sb-admin, .sb-admin input, .sb-admin textarea, .sb-admin select, .sb-title, .daterangepicker, .ct__content, .sb-select, .sb-profile-list > ul > li:hover > span, .sb-panel-details .sb-split > div:hover > .sb-title,
+#sb-close-filters-btn i, .sb-profile, .sb-board > .sb-admin-list > .sb-scroll-area li p, .sb-filter-star:not(:hover):not(.sb-active), .sb-board .sb-conversation > .sb-top > a, .sb-user-conversations > li > div,
+.sb-list .sb-message, .sb-list .sb-message a, .sb-list .sb-message-attachments a, .sb-setting input:focus, .sb-setting select:focus, .sb-setting textarea:focus, .sb-tags-cnt > span:not(.sb-active):not(:hover), #sb-audio-clip .sb-icon,
+.sb-btn.sb-loading:before, .sb-btn.sb-loading:hover:before, a.sb-btn.sb-loading:before, a.sb-btn.sb-loading:hover:before, .sb-menu-wide ul li, .sb-tab > .sb-nav > ul li, .sb-table td a, .sb-input > span, .sb-setting label,
+.sb-setting h2, .sb-setting .sb-select-checkbox label, .sb-apps > div h2, .ce-popover-item, .sb-report-block-header > div > span, .sb-report-block-header > div > span, .sb-admin > .sb-header > .sb-admin-nav-right .sb-account .sb-menu a {
+  color: #dde4ea; }
+
+.sb-editor textarea, .ce-header {
+  color: #dde4ea !important; }
+
+.sb-admin > .sb-header > .sb-admin-nav > div > a, .sb-profile-list > ul > li .sb-icon, .sb-select.sb-select-colors > p:not(:hover):after, .sb-board .sb-conversation > .sb-top i, .sb-admin > .sb-header > .sb-admin-nav-right > div a,
+.sb-list > div.sb-right .sb-message, .sb-list > div.sb-right .sb-message a, .sb-list > div.sb-right .sb-rich-message .sb-text, .sb-list > div.sb-right .sb-rich-message .sb-title, .sb-editor .sb-bar-icons > div:before, .sb-btn-icon,
+.sb-rich-message .sb-card .sb-card-header, .sb-rich-message .sb-slider .sb-card-header, .sb-btn-text, .sb-menu-articles .sb-docs, .sb-menu-chatbot .sb-docs, .sb-no-results, .sb-area-users .sb-table-users thead th {
+  color: #b0bbc6; }
+
+.sb-board > .sb-admin-list > .sb-scroll-area li.sb-active .sb-name, .sb-table-users th.sb-active, .sb-table-users th:hover {
+  color: #6fb4e1; }
+
+.sb-list .sb-time, .sb-board .sb-conversation .sb-list > div .sb-menu-btn, .sb-popup.sb-replies .sb-replies-list ul li div:last-child, .sb-editor .sb-attachments > div, .sb-profile-box .sb-agent-area .sb-rating-area .sb-rating-count,
+.sb-conversation-attachments > a, .sb-board .sb-conversation .sb-list .sb-info-message .sb-cnt .sb-message, .sb-articles > div > span, .sb-panel-details .sb-list-links > a, .sb-setting p, .sb-text-gray, .sb-apps > div p, .ce-toolbar__settings-btn,
+.codex-editor path, .sb-admin .sb-menu-mobile > i {
+  color: #87929d; }
+
+.sb-inner-tab .sb-nav > ul > .sb-no-results {
+  color: #87929d !important; }
+
+.sb-main, .sb-admin > main, .sb-tooltip:after, .sb-flow-block-cnt, .sb-admin > .sb-header > .sb-admin-nav > div > a > span:after, .sb-board .sb-no-conversation-message {
+  background-color: #252525; }
+
+div ul.sb-menu, .sb-select ul, .sb-popup, .sb-menu-mobile > ul, .sb-menu-mobile .sb-mobile, .sb-area-users .sb-filter-btn > div, .sb-menu li ul, .sb-setting input[type="checkbox"], .sb-list .sb-btn, .sb-search-dropdown .sb-search-dropdown-items,
+.sb-board > .sb-admin-list > .sb-scroll-area li.sb-active, .sb-filter-btn > div, .sb-board .sb-conversation .sb-editor, .sb-popup:after, .sb-admin > .sb-header > .sb-admin-nav-right .sb-account > div:after, .sb-setting.sb-type-color .input:after,
+.sb-inner-tab .sb-nav > ul li i, .ce-popover__container, .daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date, .sb-menu [data-value="switch"] > div,
+.sb-area-reports #sb-date-picker {
+  background-color: #2d2d2d; }
+
+.sb-search-btn > input {
+  background-color: #2d2d2d !important; }
+
+.sb-board .sb-conversation .sb-editor .sb-suggestions span, .sb-list > div, .sb-board .sb-user-details .sb-user-conversations li.sb-active, .sb-board .sb-user-details .sb-user-conversations li:hover,
+.sb-board .sb-user-details .sb-user-conversations li.sb-active, .sb-popup.sb-emoji .sb-emoji-bar > div, .sb-user-conversations > li:hover, .sb-user-conversations > li.sb-active,
+.sb-board .sb-conversation .sb-list .sb-info-message .sb-cnt, .sb-table tr:hover td, .sb-custom-select span:hover, .ce-toolbar__settings-btn:hover, .ce-toolbar__plus:hover,
+.ce-popover-item:hover:not(.ce-popover-item--no-hover), .cdx-button:hover {
+  background-color: #3a3a3a; }
+
+.sb-board > .sb-admin-list > .sb-scroll-area li.sb-active, .sb-board > .sb-admin-list > .sb-scroll-area li:hover {
+  background-color: #3a3a3a !important; }
+
+.sb-board > div > .sb-top, .sb-profile-list > .sb-title, .sb-filter-btn.sb-active > div, .sb-board .sb-user-details .sb-inline, .sb-dialog-box pre, .sb-tab > .sb-nav, .sb-setting .repeater-item + .repeater-item,
+.sb-board .sb-user-details .sb-user-conversations li, .sb-panel-details, .sb-editor, .sb-board .sb-user-details > div > h3, .sb-board .sb-user-details .sb-user-conversations li:first-child, .sb-flow-block > div + div,
+.sb-lightbox .sb-top-bar, .sb-user-conversations > li, .sb-profile-box .sb-user-conversations, #sb-audio-clip .sb-audio-clip-cnt, .sb-dialog-box .sb-title, .sb-articles > div + div, .sb-admin > main > div > .sb-top-bar,
+.sb-flow-connectors > div > span, .sb-flow-block-cnt-name, .sb-flow-connectors > div + div, .sb-playground-info, #sb-playground-embeddings-panel p span + span, .sb-timetable > div > div > div, .sb-area-users .sb-table-users tbody tr,
+.sb-area-settings > .sb-tab > .sb-content > div > .sb-setting + .sb-setting, .sb-setting.sb-type-upload-image .image, .sb-setting [data-type="upload-image"] .image, .sb-apps > div, .ce-popover--opened > .ce-popover__container,
+.image-tool--caption .image-tool__caption, .sb-report-block, .daterangepicker.show-ranges.ltr .drp-calendar.left, .sb-admin > .sb-header, .sb-board .sb-conversation .sb-editor, .sb-popup.sb-replies, .sb-popup.sb-woocommerce-products,
+.sb-area-chatbot [data-id="open-ai-faq-function-calling-properties"] .repeater-item + .repeater-item, .sb-area-chatbot [data-id="open-ai-faq-set-data"] .repeater-item + .repeater-item, [data-id="flows"] > .sb-content,
+.sb-area-articles > .sb-tab > .sb-content {
+  border-color: #4c4c4c; }
+
+.sb-table-users th:first-child {
+  border-color: #4c4c4c !important; }
+
+.sb-board > .sb-admin-list > .sb-scroll-area li:after, hr, .ce-popover-item-separator__line, .ce-divider {
+  background-color: #4c4c4c; }
+
+.sb-setting input, .sb-setting select, .sb-setting textarea, .sb-replies-add-area, .sb-admin > .sb-header > .sb-admin-nav-right .sb-account .sb-profile, .sb-board > .sb-admin-list, .sb-board .sb-conversation, .sb-board .sb-user-details
+.sb-board > .sb-admin-list, .sb-board .sb-conversation, .sb-board .sb-user-details, .sb-admin > main > div:not(.sb-area-conversations), .sb-table input[type="checkbox"], .sb-input > input, .sb-input > select, .sb-input > textarea, .sb-input-image .image,
+.sb-custom-select, .sb-select-checkbox, .cdx-button, .daterangepicker, .sb-admin .sb-menu-wide > ul, .sb-admin .sb-nav > ul, .sb-admin .sb-top .sb-select ul, .sb-admin .sb-area-users .sb-top-bar .sb-filter-btn ul, .sb-admin .sb-select-reports ul {
+  background-color: #2d2d2d;
+  border-color: #4c4c4c; }
+
+.sb-flow-block, .sb-flow-block-cnt-name {
+  background-color: #3a3a3a;
+  border-color: #4c4c4c; }
+
+.daterangepicker .calendar-table {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d; }
+
+.sb-btn-icon:hover, .sb-board .sb-conversation > .sb-top a:hover i {
+  color: #6fb4e1;
+  border-color: #6fb4e1; }
+
+.sb-table td, .sb-table th {
+  color: #dde4ea;
+  border-color: #4c4c4c; }
+
+#sb-audio-clip, .sb-btn.sb-loading, a.sb-btn.sb-loading, .repeater-item .repeater-item .sb-sub-repeater-close, .sb-repeater-inputs-v .repeater-item i {
+  background-color: #2d2d2d;
+  color: #b0bbc6; }
+
+.sb-list > div.sb-label-date span, .sb-label-date-top span, .daterangepicker td.in-range, .daterangepicker .ranges li:hover {
+  background-color: #3a3a3a;
+  color: #b0bbc6; }
+
+div ul.sb-menu li:hover, .sb-select ul li:hover, .daterangepicker td.available:hover, .daterangepicker th.available:hover {
+  background-color: #3a3a3a;
+  color: #6fb4e1; }
+
+.sb-input > input:focus, .sb-input > input.sb-focus, .sb-input > select:focus, .sb-input > select.sb-focus, .sb-input > textarea:focus, .sb-input > textarea.sb-focus, .sb-rich-cnt[data-type="chips"] .sb-text {
+  background-color: #3a3a3a;
+  color: #dde4ea; }
+
+div ul.sb-menu, .sb-select ul, .sb-popup, .sb-menu-mobile > ul, .sb-menu-mobile .sb-mobile, .sb-area-users .sb-filter-btn > div, .sb-menu li ul, .sb-admin > .sb-header > .sb-admin-nav-right .sb-account > div {
+  border: 1px solid #4c4c4c; }
+
+.sb-tooltip > div, .sb-admin > .sb-header > .sb-admin-nav > div > a > span, .sb-admin > .sb-header > .sb-admin-nav-right .sb-account > div, .sb-lightbox, .sb-color-palette ul, .sb-flows-blocks-nav-box .sb-close,
+.sb-rich-message .sb-slider-arrow {
+  background-color: #252525;
+  color: #dde4ea;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.05); }
+
+.sb-btn, a.sb-btn {
+  background-color: #3a3a3a;
+  color: #dde4ea;
+  box-shadow: rgba(147, 147, 147, 0.3) 0 1px 1px 0, #373737 0 0 0 1px, transparent 0 0 0 0, transparent 0 0 0 0; }
+
+.sb-btn:not(.sb-loading):hover, .sb-btn:not(.sb-loading):active, a.sb-btn:not(.sb-loading):hover, a.sb-btn:not(.sb-loading):active {
+  box-shadow: rgba(147, 147, 147, 0.5) 0 1px 1px 0, #373737 0 0 0 1px, transparent 0 0 0 0, transparent 0 0 0 0; }
+
+.sb-list > div.sb-right, .sb-list > div.sb-right.sb-rich-cnt .sb-text, .sb-board .sb-conversation .sb-list .sb-rich-message:not(.sb-rich-list) input, .sb-board .sb-conversation .sb-list .sb-rich-message:not(.sb-rich-list) textarea,
+.sb-board .sb-conversation .sb-list .sb-rich-message:not(.sb-rich-list) select {
+  color: #dde4ea;
+  background-color: #2e353b !important;
+  border-color: #4c4c4c; }
+
+.sb-btn.sb-btn-red {
+  box-shadow: rgba(238, 202, 202, 0.3) 0 1px 1px 0, #e05151 0 0 0 1px, transparent 0 0 0 0, transparent 0 0 0 0; }
+
+.sb-btn.sb-btn-red:not(.sb-loading):hover {
+  background-color: #e05151;
+  box-shadow: rgba(238, 202, 202, 0.3) 0 1px 1px 0, #e05151 0 0 0 1px, transparent 0 0 0 0, transparent 0 0 0 0; }
+
+.sb-scroll-area::-webkit-scrollbar-track, .sb-conversation .sb-list::-webkit-scrollbar-track, .sb-list .sb-message pre::-webkit-scrollbar-track, .sb-rich-table .sb-content::-webkit-scrollbar-track, .sb-admin .sb-top-bar > div:first-child > ul::-webkit-scrollbar-track,
+.sb-dialog-box pre::-webkit-scrollbar-track, .sb-horizontal-scroll::-webkit-scrollbar-track, .sb-custom-select::-webkit-scrollbar-track, .sb-select-checkbox::-webkit-scrollbar-track, .sb-setting textarea::-webkit-scrollbar-track, .ce-popover__items::-webkit-scrollbar-track {
+  background-color: #3a3a3a; }
+.sb-scroll-area::-webkit-scrollbar-thumb, .sb-conversation .sb-list::-webkit-scrollbar-thumb, .sb-list .sb-message pre::-webkit-scrollbar-thumb, .sb-rich-table .sb-content::-webkit-scrollbar-thumb, .sb-admin .sb-top-bar > div:first-child > ul::-webkit-scrollbar-thumb,
+.sb-dialog-box pre::-webkit-scrollbar-thumb, .sb-horizontal-scroll::-webkit-scrollbar-thumb, .sb-custom-select::-webkit-scrollbar-thumb, .sb-select-checkbox::-webkit-scrollbar-thumb, .sb-setting textarea::-webkit-scrollbar-thumb, .ce-popover__items::-webkit-scrollbar-thumb {
+  background-color: #585e63; }
+
+.sb-admin > .sb-header > .sb-admin-nav > div > a:before {
+  opacity: 1; }
+
+.sb-tooltip:before, .sb-admin > .sb-header > .sb-admin-nav > div > a > span:before {
+  background-image: url(../media/triangle-dark.svg); }
+
+.sb-popup:before, .sb-admin > .sb-header > .sb-admin-nav-right .sb-account > div:before {
+  background-image: url(../media/triangle-dark-2.svg); }
+
+.sb-lightbox-overlay {
+  background-color: rgba(28, 28, 28, 0.9) !important; }
+
+.sb-flow-block-cnt.sb-active {
+  background: #323232; }
+
+.sb-list > div.sb-right.sb-rich-cnt[data-type="chips"] {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0; }
+
+.sb-board .sb-conversation .sb-list .sb-rich-message input::placeholder {
+  color: #566063 !important; }
+.sb-board .sb-conversation .sb-list .sb-rich-message input::-webkit-input-placeholder {
+  color: #566063 !important; }
+.sb-board .sb-conversation .sb-list .sb-rich-message input::-moz-placeholder {
+  color: #566063 !important; }
+.sb-board .sb-conversation .sb-list .sb-rich-message input:-ms-input-placeholder {
+  color: #566063 !important; }
+
+textarea::-webkit-scrollbar-button {
+  background-color: #3a3a3a; }
+
+.sb-admin > .sb-header > .sb-admin-nav-right .sb-account .sb-menu {
+  border: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
+
+.sb-admin > .sb-header > .sb-admin-nav-right .sb-account > div {
+  border-radius: 6px; }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 1; }
+
+.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {
+  border-color: #b0bbc6; }
+
+@media (min-width: 465px) {
+  .sb-menu-mobile > ul {
+    border: none !important; } }
+
+/*# sourceMappingURL=dark.css.map */
